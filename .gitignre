@@ -1,0 +1,16 @@
+# Ignore installed dependencies
+node_modules/
+
+# Ignore environment variables and secrets
+.env
+.env.*
+
+# Allow an example environment file
+!.env.example
+
+# Ignore logs
+*.log
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
